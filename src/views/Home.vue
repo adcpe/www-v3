@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container-sm min-h-full font-lato flex-1 flex flex-col place-content-center items-center mx-10"
+    class="container-sm min-h-full font-lato flex-1 flex flex-col place-content-center items-center mx-10 text-left"
   >
     <div class="lg:w-1/2">
       <h1 class="text-3xl m-3">

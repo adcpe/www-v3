@@ -3,6 +3,7 @@
     <h1 id="postTitle">{{ title }}</h1>
     <p>
       <b>Posted</b> {{ publishedOn }}
+      &nbsp;
       <span v-if="updatedOn"> <b>Updated</b> {{ updatedOn }} </span>
     </p>
     <div class="md" v-html="body" />
@@ -34,7 +35,7 @@ export default {
     });
 
     document.title = `${this.title} | ${process.env.VUE_APP_TITLE}`;
-    
+
     prism();
   },
   methods: {

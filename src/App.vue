@@ -1,5 +1,7 @@
 <template>
-  <div class="min-h-screen flex flex-col container-auto bg-bggray border-4 border-black rounded m-1 font-lato">
+  <div
+    class="min-h-screen flex flex-col container-auto bg-bggray border-4 border-black rounded m-1 font-lato"
+  >
     <Nav />
     <router-view />
     <Footer />
